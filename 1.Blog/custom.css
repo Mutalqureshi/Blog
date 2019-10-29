@@ -1,0 +1,258 @@
+
+
+
+/*blog page*/
+.the_blog{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border-bottom: 1px solid #343352;
+	padding-bottom: 30px;
+}
+.date {
+    position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 1;
+	width: 39px;
+	background:#343352;
+	color:#fff;
+    padding: 11px 0px;
+    text-align: center;
+    font-size: 12px;
+    font-family: raleway;
+}
+.blog-img {
+	overflow: hidden;
+	/*border: 1px solid #f3f3f3;*/
+    position: relative;
+}
+
+hr.blog-hr{
+	background: white;
+	color: white;
+	height: 1px;
+	border: 0;
+	width: 20px;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 8px;
+	margin-top: 8px;
+
+}
+.max-date{
+	font-size: 15px;
+}
+.zoom{
+	height: 255px; 
+}
+.zoom:hover img {
+	transition: all 1s ease;
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.blog-title a {
+    color: #343352;
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+h5.blog-title{
+    color: #343352;
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.blog-title a:hover{
+	color: #ff5757;
+}
+.blog-title {
+    padding-bottom: 15px;
+}
+.blogDesc {
+    font-family: raleway;
+    font-size: 16px;
+    line-height: 25px;
+}
+.more2 {
+    padding-top: 12px !important;
+    display: inline-block;
+    color: #343352;
+    font-weight: 500;
+    font-size: 18px;
+    padding-bottom: 4px;
+}
+.more2:hover{
+	color: #ff5757;
+}
+.far.fa-clock {
+    font-size: 12px !important;
+    padding-right: 6px !important;
+}
+
+h5.blog-head {
+    color: #343353;
+	font-size: 45px;
+	font-weight: 700;
+	margin-top: 27px;
+	border-bottom: 1px solid  #343352 ;
+    padding-bottom: 14px;
+}
+
+ul.pagination {
+    margin: 0 auto;
+    display: inline-block;
+
+}
+ul.pagination li {
+	margin-bottom: 60px;
+    width: 30px;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    /*margin: 0 10px;*/
+    border-radius: 0;
+
+}
+ul.pagination li.active, ul.pagination li.active a{
+	background: #343352;
+    color: white;
+}
+ul.pagination li:hover , ul.pagination li:hover a{
+	background: #343352;
+    color: white;
+} 
+ul.pagination li a {
+    color:#343352 ;
+
+}
+.listTime a {
+    color: #343352;
+    font-weight: bold;
+}
+.listTime a:hover{
+	color: #ff5757;
+}
+/*detail page*/
+.detail-page{
+	padding: 40px 0;
+}
+.blog-detail-content h5.blog-title{
+	padding-bottom: 30px;
+	font-size: 30px;
+}
+.blog-detail-content .blogDesc{
+	margin-top: 30px;
+}
+.brd,.brd span{
+	font-size: 15px !important;
+	font-weight: 400 !important;
+	padding-left: 1px !important;
+	color: #343352  !important;
+}
+.blog-detail-content .blogListFooter{
+    margin-top: 25px;
+}
+.full{
+	margin-top: 60px;
+	text-align: center;
+}
+.full ul li{
+    display: inline-block;
+}
+.full ul li a{
+	display: inline-block;
+    width: 100px;
+    background: #343352;
+	height: 40px;
+	line-height: 40px;
+
+}
+.full ul li a:hover{
+	background-color: #ff5757;
+}
+
+.full ul li a{
+	color:white;
+}
+/*blog-side bar*/
+.blog-sidebar span {
+  border-bottom: 2px dashed #343352;
+    font-size: 25px;
+    margin-top: 15px;
+    padding-bottom: 8px;
+   margin-bottom: 0;
+    display: inline-block;
+    color: #343352;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.blog-sidebar{
+	margin: 20px 0;
+}
+.blog-sidebar ul {
+    margin-top: 30px;
+}
+.blog-sidebar ul li {
+
+	padding: 8px 12px;
+    /*line-height: 32px;*/
+    border-bottom: 2px dashed #333; 
+}
+
+.blog-sidebar ul li a{
+	color: #343352;
+}
+#searchform {
+
+    background: #f3f3f3;
+    padding: 15px;
+    border-radius: 13px;
+
+}
+.container.error-page {
+    padding: 100px;
+}
+.shareField {
+    margin-top: 10px;
+}
+.blog-sidebar ul li:hover , .blog-sidebar ul li:hover a{
+color: white;
+	background-color: #343352;
+}
+.blog-sidebar ul li a:before{ 
+	   content: "\f105";
+    margin: 0 8px 0 -8px;
+    display: inline-block;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+}
+.blog-sidebar input {
+    height: 34px;
+    padding-left: 5px;
+    border: 1px solid  #343352;
+	color: #343352;
+}
+.blog-sidebar input#searchsubmit{
+	background: #343352;
+	color: white;
+	width: 80px;
+	padding: 0; 
+}
+.mggt{
+	margin-top: 50px !important; 
+}
+.meks-instagram-widget {
+    margin-top: 27px !important;
+}
+/*blog end*/
+
+
+
+
+
+
+
+
